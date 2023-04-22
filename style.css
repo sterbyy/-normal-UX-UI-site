@@ -3,9 +3,12 @@ body{
     font-family: 'Press Start 2P';
     font: 400;
 }
+
 .container{
         background-color: #424242;
 }
+
+/*код заголовка*/
 .header{
     list-style-type: none;
     display: flex;
@@ -23,6 +26,12 @@ body{
     border-radius: 25px;
     margin: 20px;    
 }
+
+.button:hover{
+    transition-property: color;
+    color: #ff0101;
+}
+
 .button_more{
     text-align: center;
     color: black;
@@ -32,6 +41,12 @@ body{
     border-radius: 25px;
     margin: 20px;
 }
+
+.button_more:hover{
+    transition-property: color;
+    color: #ff0101;
+}
+
 .logo{
     text-align: center;
     color: black;
@@ -40,16 +55,21 @@ body{
     height: 85px;
     margin: 20px;
 }
+/*здесь заканчивается код с заголовком*/
+
+/*код секций с анонсами*/
 .section1{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 h1{
     color: white;
     text-align: center;
 }
+
 .block1{
     width: 255px;
     height: 115px;
@@ -60,9 +80,11 @@ h1{
     flex-direction: column;
     align-items: center;    
 }
+
 .news{
     margin-right: 27.5%;
 }
+
 .button_check{
     color: black;
     background-color: #686868;
@@ -72,6 +94,7 @@ h1{
     margin-top: 15%;
     margin-right: 15%;
 }
+
 .block2{
     width: 450px;
     height: 150px;
@@ -84,11 +107,13 @@ h1{
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
+
 .telegram{
     color: black;
     text-align: center;
     margin-right: 10%;    
 }
+
 .button_join{
     color: black;
     background-color: #686868;
@@ -98,17 +123,62 @@ h1{
     margin-top: 5%;
     margin-right: 5%;
 }
+
+.block3{
+    width: 255px;
+    height: 115px;
+    border-radius: 25px;
+    list-style-type: none;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_link{
+    color: black;
+    background-color: #686868;
+    width: 100px;
+    height: 20px;
+    border-radius: 25px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.button_check:hover{
+    transition-property: color, background-color, border;
+    color: #ff0101;
+    background-color: #404040;
+}
+
+.button_join:hover{
+    transition-property: color, background-color, border;
+    color: #ff0101;
+    background-color: #404040;
+}
+
+.button_link:hover{
+    transition-property: color, background-color, border;
+    color: #ff0101;
+    background-color: #404040;
+}
+/*здесь закончился код с секцией с анонсами*/
+
+/*код с секцией магазина*/
 h2{
     color: white;
     text-align: center;
 }
+
 .section2{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 20px;
 }
+
 .block_1{
+    width: 350px; height: 200px;
     color: black;
     background-color: #d9d9d9;
     border-radius: 25px;
@@ -116,14 +186,17 @@ h2{
     flex-direction: column;
     
 }
+
 .title{
     text-align: center;
 }
+
 .icons{
     list-style-type: none;
     display: flex;
     flex-direction: row;
 }
+
 .square{
     background-color: #414141;
     text-align: center;
@@ -134,24 +207,37 @@ h2{
     justify-content: center;
     align-items: center;
 }
+
 .block_2{
+    width: 350px; height: 200px;
     color: black;
     background-color: #d0d0d0;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
 }
+
 .see_more{
     text-align: center;
 }
+
 .warn{
     text-align: center;
     color: #ff0101;
 }
+
 .sign_or_login{
     text-align: center;
     color: #ff0101;
 }
+
+span:hover{
+    transition-property: width, height, color, background-color, border;
+    width: 50px; height: 35px;
+    color: #cccccc;
+    background-color:#aa0f0f;
+}
+
 span{
     color: white;
     background-color: #ff0101;
@@ -159,21 +245,27 @@ span{
     height: 20px;
     border-radius: 25px;
 }
+
 h3{
     color: white;
     text-align: center;
 }
+/*здесь заканчивается код секции магазина*/
+
+/*конечная и не особо интересная секция с "подвалом"*/
 .footer{
     background-color: #d9d9d9;
     width: 1850px; height: 250px;
     justify-content: center;
     border-radius: 25px;
 }
+
 .end{
     list-style-type: none;
     color: rgba(85, 85, 85, 0.95);
     text-align: center;
 }
+
 .end_button{
     background-color: rgba(65, 65, 65, 0.95);
     color: black;
@@ -182,3 +274,4 @@ h3{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+/*здесь кончается код в принципе*/
