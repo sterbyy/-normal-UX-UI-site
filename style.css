@@ -24,7 +24,8 @@ body{
     width: 215px;
     height: 25px;
     border-radius: 25px;
-    margin: 20px;    
+    margin: 20px;
+    padding: 10px;    
 }
 
 .button:hover{
@@ -40,6 +41,7 @@ body{
     height: 25px;
     border-radius: 25px;
     margin: 20px;
+    padding: 10px;
 }
 
 .button_more:hover{
@@ -49,7 +51,7 @@ body{
 
 .logo{
     text-align: center;
-    color: black;
+    color: #ff0101;
     background-color: #d9d9d9;
     width: 215px;
     height: 85px;
@@ -83,6 +85,7 @@ h1{
 
 .news{
     margin-right: 27.5%;
+    padding: 15px;
 }
 
 .button_check{
@@ -91,8 +94,8 @@ h1{
     width: 100px;
     height: 15px;
     border-radius: 25px;
-    margin-top: 15%;
     margin-right: 15%;
+    padding: 15px;
 }
 
 .block2{
@@ -106,12 +109,13 @@ h1{
     align-items: center;
     margin-left: 2.5%;
     margin-right: 2.5%;
+    padding: 15px;
 }
 
 .telegram{
     color: black;
     text-align: center;
-    margin-right: 10%;    
+    margin-right: 10%;   
 }
 
 .button_join{
@@ -122,17 +126,19 @@ h1{
     border-radius: 25px;
     margin-top: 5%;
     margin-right: 5%;
+    padding: 15px;
 }
 
 .block3{
     width: 255px;
-    height: 115px;
+    height: 130px;
     border-radius: 25px;
     list-style-type: none;
     background-color: #d9d9d9;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px;
 }
 
 .button_link{
@@ -143,6 +149,7 @@ h1{
     border-radius: 25px;
     margin-top: 5%;
     margin-right: 5%;
+    padding: 15px;
 }
 
 .button_check:hover{
@@ -184,7 +191,7 @@ h2{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    
+    padding: 15px;
 }
 
 .title{
@@ -215,6 +222,7 @@ h2{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .see_more{
@@ -233,7 +241,7 @@ h2{
 
 span:hover{
     transition-property: width, height, color, background-color, border;
-    width: 50px; height: 35px;
+    width: 5px; height: 5px;
     color: #cccccc;
     background-color:#aa0f0f;
 }
@@ -244,6 +252,8 @@ span{
     width: auto;
     height: 20px;
     border-radius: 25px;
+    padding: 1%;
+    margin: auto;
 }
 
 h3{
@@ -255,9 +265,8 @@ h3{
 /*конечная и не особо интересная секция с "подвалом"*/
 .footer{
     background-color: #d9d9d9;
-    width: 1850px; height: 250px;
+    width: 1580px; height: 300px;
     justify-content: center;
-    border-radius: 25px;
 }
 
 .end{
@@ -265,12 +274,15 @@ h3{
     color: rgba(85, 85, 85, 0.95);
     text-align: center;
 }
-
+.help{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
 .end_button{
     background-color: rgba(65, 65, 65, 0.95);
     color: black;
     border-radius: 25px;
-    width: auto; height: 100px;
+    width: auto; height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
 }
